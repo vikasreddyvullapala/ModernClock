@@ -1,0 +1,88 @@
+.hr,.min,.sec{
+  margin: 5% 4%;
+  padding: 1%;
+  display: flex;
+  align-items:  start;
+  max-height: 100vh;
+}
+.number{
+  width: 7vmin;
+  height: 7vmin;
+  color: rgba(86, 163, 222, 0.597);
+  font-weight: 900;
+  transition: all 500ms 100ms ease;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 4px;
+}
+.number.pop{
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  transform: scale(1.4);
+  background-color: #36a2dc3d;
+  box-shadow: 1px 2px 5px rgba(46, 146, 180, 0.47);
+}
+.strip{
+  margin: 7%;
+  
+  width: fit-content;
+  transition: transform 500ms ease-in-out;
+  border-radius: 2rem;
+  background-color: #dce7ff;
+  box-shadow: 4px 4px 15px rgb(249, 253, 255);
+
+}
+.clock{
+  display: flex;
+
+  position: relative;
+  padding-top: 15%;
+  margin-left: 30%;
+  overflow: hidden;
+}
+main{
+  padding: 15%;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: #515d79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+ 
+}
+body::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  
+  background-color: #92d6f1;
+  border-radius: 2rem;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 2rem;
+  background-color: #f5fbfd; 
+  margin: 1%;
+}
+body{
+  background-color: #a4d5ef;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+  padding-top: 2%;
+}
+.head{
+ 
+}
+.head>span{
+  
+  background-color: #4492bd44;
+  border-radius: 50%;
+  height: fit-content;
+  width: fit-content;
+  padding: 2%;
+  text-shadow: 2px 2px 4px;
+  box-shadow: 1px 1px 5px;
+}
